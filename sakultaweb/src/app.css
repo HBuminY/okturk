@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Lobster&family=Press+Start+2P&family=Raleway:wght@200&family=Roboto&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body {
+    @apply fixed p-0 m-0 top-0 left-0 h-full w-full overflow-auto;
+}
+
+
+.font-rb{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+@keyframes wave {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+.waveAnim {
+    animation: wave 3s ease-in-out infinite;
+    animation-fill-mode: both;
+}
