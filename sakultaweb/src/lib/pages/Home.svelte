@@ -4,9 +4,10 @@
     import HorizontalSeperator from "../HorizontalSeperator.svelte";
 </script>
 
-
+<div class="min-h-screen">
 <HomeSect1/>
 
 <HorizontalSeperator/>
 
 <HomeSect2/>
+</div>
