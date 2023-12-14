@@ -6,7 +6,7 @@
 
 
 html, body {
-    @apply fixed p-0 m-0 top-0 left-0 h-full w-full overflow-auto;
+    @apply fixed p-0 m-0 top-0 left-0 h-full w-full overflow-auto scroll-smooth;
 }
 
 

@@ -6,18 +6,17 @@
 
 
 
-<Section extraClass="h-full px-0">
-    <div class="flex flex-col w-3/4 z-10 justify-start font-rb h-full">
+<Section extraClass="max-h-min px-0">
+    <div class="flex flex-col w-full md:w-3/4 z-10 justify-start font-rb h-full">
 
         <div class="flex flex-row justify-center w-full z-10">
-
-            <div class=" w-1/2"><p class="text-xl text-opacity-90 text-center">
+            <div class="bg-white bg-opacity-80 p-1 rounded-md md:bg-opacity-0 w-1/2"><p class="text-xl text-opacity-90 text-center">
                 <b>İşletmenizin bütün ihtiyaçlarını karşılayacak ve sektörünüze uygun</b>
                 web çözümlerimiz ile işinizi bir adım daha öteye taşımak için <b class="text-2xl opacity-100">beklemeyin!</b>
             </p></div>
         </div>
 
-        <div class="mx-auto -translate-x-10">
+        <div class="mx-auto w-full md:-translate-x-10">
             <PriceTable/>
         </div>
     </div>

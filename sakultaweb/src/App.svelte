@@ -16,6 +16,7 @@
 
   import Navbar from './lib/Navbar.svelte';
   import Navbtn from './lib/Navbtn.svelte';
+  import Footer from './lib/Footer.svelte';
 </script>
 
 <body>
@@ -27,4 +28,6 @@
   </Navbar>
 
   <Router {routes}/>
+
+  <Footer/>
 </body>
