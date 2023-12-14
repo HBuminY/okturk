@@ -1,6 +1,7 @@
 <script>
     import menuicon from '../assets/menu.svg'
     import Navbtn from './Navbtn.svelte';
+    import { slide } from 'svelte/transition';
 
     const windowWidth = window.innerWidth;
     const isMobile = (windowWidth<768);
@@ -30,7 +31,10 @@
 {/if}
 
 {#if mobilemenu}
-    <div class="fixed top-0 right-0 h-screen w-[75vw] bg-orange-300 z-20">
+    <div 
+    class="fixed top-0 right-0 h-screen w-[75vw] bg-orange-300 z-20"
+    transition:slide={{axis:'x'}}
+    >
         <div>
             <ul class="max-w-min text-center m-auto">
                 <li><h1 class="underline">Menu</h1></li>
