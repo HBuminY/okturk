@@ -15,7 +15,7 @@
 {#if !isMobile}
 <div class="m-0 p-0 sticky transition top-0 z-50 flex flex-row shadow-xl bg-slate-50 border-b-4 border-orange-600">
     <div class="flex flex-col basis-1/4 justify-center px-4">
-        <h1 class="text-xl text-center font-bold">Sakulta</h1>
+        <h1 class="text-xl text-center font-bold">webmen</h1>
     </div>
 
     <ul
