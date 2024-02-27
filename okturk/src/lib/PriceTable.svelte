@@ -1,4 +1,4 @@
-<table class="table-fixed border-collapse m-0 md:m-8 text-center w-full md:w-auto font-rb text-sm md:text-lg md:shadow-2xl md:translate-x-4
+<table class="table-fixed border-collapse m-0 md:m-8 text-center w-full md:w-auto font-rb text-sm md:text-lg md:shadow-2xl md:translate-x-4 break-words
     [&>*>*>*]:border-4
     [&>*>*>*]:px-4
     [&>*>*>*]:py-2

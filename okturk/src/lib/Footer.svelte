@@ -7,7 +7,7 @@
 
         <div class="h-[47%] md:h-full p-6 w-full md:w-[47%] bg-slate-700 rounded-md flex flex-col justify-start text-white">
             <div><p>
-                webmen, İstanbul merkezli kurumsal web hizmetleri sunan bir tasarım merkezi ve ajanstır.
+                OKTurk, Nevşehir merkezli kurumsal web hizmetleri sunan bir teknoloji kurumudur.
             </p></div>
 
             <div class="w-full">
@@ -23,7 +23,7 @@
 
             <div class="mt-auto">
                 <p class="font-rb text-sm">
-                    Bu Websitesi H. Bumin Y. Tarafından webmen Web Şirketi için tasarlanmış ve üretilmiştir.
+                    Bu Websitesi ve bütün içeriklerinin sahiplik hakları gizli tutulmaktadır.
                 </p>
             </div>
         </div>

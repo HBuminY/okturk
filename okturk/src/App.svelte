@@ -19,7 +19,7 @@
   import Footer from './lib/Footer.svelte';
 </script>
 
-<body>
+<body class="overflow-x-hidden">
   <Navbar>
     <Navbtn title={"Anasayfa"} page={"/"}/>
     <Navbtn title={"Kurumsal"} page={"/kurumsal"}/>
